@@ -1,0 +1,82 @@
+div.acymailing_module, .acymailing_module div{
+	padding: 0 !important;
+	margin: 0 !important;
+	border-style:none !important;
+}
+
+table.acymailing_form{
+	margin:auto;
+	border-spacing:10px 0;
+	border-collapse:separate;
+	vertical-align:middle;
+}
+
+a.acymailing_togglemodule{
+	display : block;
+	font-size:16px;
+}
+
+.acymailing_mootoolsbutton p{
+	text-align:center;
+}
+
+.acysubbuttons{
+	text-align:left;	
+}
+
+input.button {
+	background:url("../images/submit_btn.png") no-repeat center !important;
+	color:#e6e6e6;
+	border:none;
+	cursor:pointer;
+	height:45px;
+	width:93px;
+	text-align:left;
+	padding-left:7px;
+}
+
+input.button:hover {
+	background:url("../images/submit_hover.png") no-repeat center !important;
+	color:#e6e6e6;
+	border:none;
+	cursor:pointer;
+	height:45px;
+	width:93px;
+	text-align:left;
+	padding-left:7px;
+}
+
+img.captchaimagemodule{
+	border:1px solid #dddddd;
+	float: left;
+}
+
+.captchakeymodule .captchafield{
+	margin-top:3px;
+	margin-left:2px;
+}
+
+.acymailing_fulldiv tr, .acymailing_fulldiv td{
+	border:0px;
+}
+
+.acymailing_module_form td {
+	padding-bottom: 5px;
+}
+
+div.acymailing_module_error {
+	color: #400;
+	background-color: #fdd;
+	padding: 1em !important;
+	margin-bottom:10px;
+}
+
+div.acymailing_module_success {
+	color: #130;
+	background-color: #dfc;
+	padding: 1em !important;
+	z-index: 10;
+	margin-bottom:10px;
+}
+
+#user_name_formAcymailing1, #user_email_formAcymailing1 {color:#646464;}
