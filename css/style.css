@@ -113,10 +113,15 @@
 		header .byline
 		{
 			display: block;
-			margin: 1.5em 0 0 0;
+			margin: 1.9em 0 -20px 0;
 			padding: 0 0 0.5em 0;
 		}
-
+		header .email
+		{
+			display: block;
+			margin: 1.5em 0 -20px 0;
+			padding: 0 0 0.5em 0;
+		}
 	footer
 	{
 		margin-top: 1em;
@@ -923,7 +928,11 @@
 
 	#footer header .byline
 	{
-		color: rgba(255,255,255,.2);
+		color: rgba(255,255,255,0.8);
+	}
+	#footer header .email
+	{
+		color: rgba(255,255,255,0.8);
 	}
 
 /*********************************************************************************/
@@ -939,7 +948,7 @@
 
 	#copyright .container
 	{
-		padding: 3em 0em;
+		padding: 2em 0em;
 		border-top: 1px solid;
 		border-color: rgba(255,255,255,.05);
 		color:  rgba(255,255,255,.1);
