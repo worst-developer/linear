@@ -116,11 +116,17 @@
 			margin: 1.9em 0 -20px 0;
 			padding: 0 0 0.5em 0;
 		}
+
 		header .email
 		{
 			display: block;
 			margin: 1.5em 0 -20px 0;
 			padding: 0 0 0.5em 0;
+		}
+
+		header .Yarossia
+		{
+
 		}
 	footer
 	{
@@ -814,7 +820,7 @@
 			text-decoration: none;
 			font-weight: 300;
 			line-height: 1em;
-			font-size: 7em;
+			font-size: 1128px;
 			color: #FFF;
 			letter-spacing: -0.05em;
 			margin: 0 0 0.125em 0;
@@ -836,7 +842,7 @@
 
 		#nav-wrapper
 		{
-			background: rgba(0,0,0,.1);
+			background: rgba(0,0,0,0.3);
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -938,6 +944,10 @@
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
+	#copyright header .Yarossia
+	{
+		color: rgba(255,255,255,0.6);
+	}
 
 	#copyright
 	{
@@ -948,9 +958,9 @@
 
 	#copyright .container
 	{
-		padding: 2em 0em;
+		padding: 1.3em 0em;
 		border-top: 1px solid;
-		border-color: rgba(255,255,255,.05);
+		border-color: rgba(255,255,255,.1);
 		color:  rgba(255,255,255,.1);
 	}
 
