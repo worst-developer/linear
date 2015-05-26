@@ -1,8 +1,6 @@
-/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
 
 	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
 
-/* Box Model */
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -12,7 +10,6 @@
 		box-sizing: border-box;
 	}
 
-/* Container */
 
 	body {
 		min-width: 1200px;
@@ -24,7 +21,7 @@
 		margin-right: auto;
 	}
 
-	/* Modifiers */
+
 	
 		.container.small {
 			width: 900px;
@@ -36,13 +33,10 @@
 			min-width: 1200px;
 		}
 
-/* Grid */
 
-	/* Cells */
-
-		.\31 2u { width: 100% }
-		.\31 1u { width: 91.6666666667% }
-		.\31 0u { width: 83.3333333333% }
+		.\31 u { width: 100% }
+		.\31 u { width: 91.6666666667% }
+		.\31 u { width: 83.3333333333% }
 		.\39 u { width: 75% }
 		.\38 u { width: 66.6666666667% }
 		.\37 u { width: 58.3333333333% }
@@ -82,8 +76,6 @@
 			margin-left: -50px;
 		}
 
-	/* Rows */
-
 		.row:after {
 			content: '';
 			display: block;
@@ -99,9 +91,6 @@
 			padding-top: 0;
 		}
 
-		/* Modifiers */
-
-			/* Flush */
 
 				.row.flush {
 					margin-left: 0;
@@ -110,8 +99,6 @@
 				.row.flush > * {
 					padding: 0 !important;
 				}
-
-			/* Quarter */
 
 				.row.quarter > * {
 					padding: 12.5px 0 0 12.5px;
@@ -125,8 +112,6 @@
 					margin-left: -12.5px;
 				}
 
-			/* Half */
-
 				.row.half > * {
 					padding: 25px 0 0 25px;
 				}
@@ -139,7 +124,6 @@
 					margin-left: -25px;
 				}
 
-			/* One and (a) Half */
 
 				.row.oneandhalf > * {
 					padding: 75px 0 0 75px;
@@ -153,7 +137,6 @@
 					margin-left: -75px;
 				}
 
-			/* Double */
 
 				.row.double > * {
 					padding: 100px 0 0 100px;
