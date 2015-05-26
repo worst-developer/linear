@@ -1,5 +1,3 @@
-
-
 skel.init({
 	prefix: 'css/style',
 	resetCSS: true,
